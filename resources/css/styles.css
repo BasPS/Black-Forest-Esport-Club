@@ -1,0 +1,208 @@
+/* Universal Style */
+
+body {
+    background-color: #252627;
+    font-size: 16px;
+    margin: 0;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Header Section */
+
+header {
+    background-color: #BB0A21;
+    padding: 1.5rem 1rem;
+}
+
+header a {
+    font-size: 1.25rem;
+    padding-left: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    header {
+        padding: 0.75rem 0.5rem;
+    }
+
+    header a {
+        font-size: 0.75rem;
+        padding-left: 1rem;
+    }    
+}
+
+/* Banner Section */
+
+.banner {
+    height: 30rem;
+    background-image: url(../images/ella-don-kCFXVisUqug-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+}
+
+.banner .content {
+    width: 100%;
+    background-color: #252627;
+    opacity: 0.7;
+}
+
+.banner h1 {
+    color: #FFF9FB;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    .banner {
+        height: 20rem;
+    }
+
+    .banner h1 {
+        font-size: 1.75rem;
+    }
+}
+
+/* About Section */
+
+.about h4 {
+    padding: 0 1.5rem;
+    font-size: 1.75rem;
+}
+
+.about p {
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+}
+
+.about a {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+    .about h4 {
+        font-size: 1rem;
+    }
+
+    .about p {
+        font-size: 0.75rem;
+    }
+}
+
+/* Photo Section */
+
+figure {
+    padding-top: 2rem;
+}
+
+img {
+    width: 30%;
+    margin: auto 1.5%;
+}
+@media screen and (max-width: 1024px) {
+    figure {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+    }
+
+    img {
+        margin: 1.5%;
+        width: 60%;
+    }
+}
+
+/* Speech Section */
+
+.speech {
+    background-color: #5798B2;
+    padding: 3rem;
+    margin: 4rem auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.speech h2 {
+    font-size: 2.75rem;
+}
+
+.speech p {
+    font-size: 1.25rem;
+}
+
+@media screen and (max-width: 500px) {
+    .speech {
+        margin: 2rem auto;
+        padding: 2rem;
+    }
+
+    .speech h2 {
+        font-size: 1.25rem;
+    }
+
+    .speech p {
+        font-size: 0.7rem;
+    }
+}
+
+/* Join Section */
+
+.join {
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.join h3 {
+    font-size: 2.5rem;
+    margin: 2rem auto;
+}
+
+.join p {
+    font-size: 1.7rem;
+    padding: 0.75rem 1rem;
+}
+
+@media screen and (max-width: 500px) {
+    .join {
+        margin-top: 1rem;
+    }
+
+    .join h3 {
+        font-size: 1.5rem;
+        padding: 0.5rem 0;
+        margin: 0.75rem auto;
+    }
+
+    .join p {
+        font-size: 1.2rem;
+        padding: 0.5rem 0;
+    }
+}
+
+/* Footer */
+
+footer {
+    height: 3rem;
+    background-color: #BB0A21;
+    display: flex;
+    align-items: center;
+    padding-left: 2%;
+}
+
+@media screen and (max-width: 500px) {
+    footer {
+        font-size: 0.5rem;
+        height: 1.5rem;
+    }    
+}
